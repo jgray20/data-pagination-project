@@ -18,6 +18,8 @@ Create the `showPage` function
 This function will create and insert/append the elements needed to display a "page" of nine students
 */
 
+
+
 //This function loops through and adds the information of 9 students per page from the data array
 function showPage (list, page) {
    const startIndex = ( page * 9 ) - 9;
